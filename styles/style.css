@@ -68,6 +68,7 @@
 }
 
 .image__container {
+  position: relative;
   width: 100%;
   outline: 2px solid var(--border-color, #000);
 }
@@ -79,9 +80,6 @@
   object-fit: cover;
 }
 
-.image__container {
-  position: relative;
-}
 
 .image_label {
   position: absolute;
