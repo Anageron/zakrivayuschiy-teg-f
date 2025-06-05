@@ -1,1 +1,31 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+:root {
+  --main-font: "Inter-Variable", sans-serif;
+  --accent-font: "PressStart2P-Regular", monospace;
+  --accent-title-size:clamp(3.0625rem, 2.7104rem + 1.5023vw, 4.0625rem);
+  --accent-text-size:clamp(0.875rem, 0.6769rem + 0.8451vw, 1.4375rem);
+  --bg-image:repeating-linear-gradient(to right, #d3d3d3 0 2px, transparent 0 4px),
+  repeating-linear-gradient(to top, #d3d3d3 0 2px, transparent 0 4px),
+  linear-gradient(180deg, #E7E7E7 0%, #1A1A1A 100%);
+  --main-font-size:18px;
+  --text-font-size:14px;
+  --main-font-bold:700;
+  --main-font-normal:400;
+  --container-width:698px;
+  --border-color:#000000;
+  --text-color:#000000;
+  --bg-color:#fff;
+  --inline-size: clamp(23.4375rem, 16.3292rem + 30.3286vw, 43.625rem);
+  --max-height:368px;
+  --dialog-width:353px;
+  --contour-color:#000000;
+  --animation-fill-color:#FF0000;
+
+}
+
+@media (width <= 375px) {
+:root {
+ --inline-size:100%;
+ --dialog-width:341px;
+}
+}
